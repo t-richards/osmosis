@@ -14,8 +14,11 @@
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
 
-    <%# Includes all stylesheet files in app/assets/stylesheets %>
+    <%# Sprockets %>
     <%= stylesheet_link_tag :application %>
+
+    <%# Shakapacker %>
+    <%= stylesheet_pack_tag :application %>
     <%= javascript_pack_tag :application %>
   </head>
 
