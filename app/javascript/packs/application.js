@@ -6,5 +6,6 @@ const container = document.getElementById('root')
 const root = createRoot(container)
 
 document.addEventListener('DOMContentLoaded', () => {
-  root.render(<HelloMessage name="World" />)
+  const hello = React.createElement(HelloMessage, { name: 'World' })
+  root.render(hello)
 })
