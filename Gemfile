@@ -9,8 +9,11 @@ gem "dotenv-rails", "~> 3.1", ">= 3.1.7"
 # Old-fashioned rails asset pipeline
 gem "sprockets-rails", "~> 3.5"
 
-# The unfortunate one
+# The actively maintained version of webpacker
 gem "shakapacker", "~> 8.2"
+
+# Helpers for rendering components
+gem "react-rails", "~> 3.2"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
