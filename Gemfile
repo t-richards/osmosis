@@ -16,7 +16,7 @@ gem "shakapacker", "~> 8.2"
 gem "react-rails", "~> 3.2"
 
 group :development, :test do
-  gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
+  gem "debug", require: "debug/prelude"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
 end
