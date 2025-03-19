@@ -5,7 +5,7 @@ interface HelloMessageProps {
     name: string;
 }
 
-const HelloMessage: React.FC<HelloMessageProps> = ({ name }) => (
+const HelloMessage = ({ name }: HelloMessageProps) => (
     <h1>Hello, {name}!</h1>
 )
 
