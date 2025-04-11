@@ -4,7 +4,7 @@ gem "rails", "~> 8.0.2"
 gem "puma", ">= 5.0"
 gem "bootsnap", require: false
 
-gem "dotenv-rails", "~> 3.1", ">= 3.1.7"
+gem "dotenv-rails", "~> 3.1"
 
 # Old-fashioned rails asset pipeline
 gem "sprockets-rails", "~> 3.5"
