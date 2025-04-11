@@ -2,8 +2,7 @@
 
 A demonstration Rails application to show a working configuration of the following things:
 
- - shakapacker
- - swc
+ - shakapacker (using babel)
  - react-rails
  - Jest
 
