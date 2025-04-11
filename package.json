@@ -6,9 +6,7 @@
   "babel": {
     "presets": [
       "./node_modules/shakapacker/package/babel/preset.js",
-      "@babel/preset-typescript",
-      "@babel/preset-react",
-      "@babel/preset-env"
+      "@babel/preset-react"
     ]
   },
   "browserslist": [
