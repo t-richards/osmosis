@@ -11,6 +11,7 @@
   },
   "jest": {
     "clearMocks": true,
+    "collectCoverage": true,
     "coverageReporters": [
       "text",
       "html"
