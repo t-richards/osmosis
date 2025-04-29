@@ -8,7 +8,7 @@ gem "bootsnap", require: false
 gem "sprockets-rails", "~> 3.5"
 
 # The actively maintained version of webpacker
-gem "shakapacker", "~> 8.2"
+gem "shakapacker", "~> 8.3"
 
 # Helpers for rendering components
 gem "react-rails", "~> 3.2"
