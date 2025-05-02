@@ -19,10 +19,10 @@
     <%= stylesheet_link_tag :application %>
 
     <%# Shakapacker %>
-    <%= javascript_pack_tag :application %>
+    <%= javascript_pack_tag :application, defer: true %>
   </head>
 
-  <body>
+  <body data-bs-theme="dark" class="container">
     <%= yield %>
   </body>
 </html>

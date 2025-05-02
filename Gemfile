@@ -6,6 +6,7 @@ gem "bootsnap", require: false
 
 # Old-fashioned rails asset pipeline
 gem "sprockets-rails", "~> 3.5"
+gem "sassc-rails", "~> 2.1"
 
 # The actively maintained version of webpacker
 # NOTE: This version must match the version specified in package.json
