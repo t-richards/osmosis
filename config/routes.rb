@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Homepage
   get "/", to: "home#index"
+  get "/hello", to: "home#hello", as: :hello
+  get "/goodbye", to: "home#goodbye", as: :goodbye
+  get "/both", to: "home#both", as: :both
 end
