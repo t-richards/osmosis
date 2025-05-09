@@ -1,5 +1,7 @@
 # osmosis
 
+https://osmosis.fly.dev/
+
 A demonstration Rails application to show a working configuration of the following things:
 
  - shakapacker (using babel)
